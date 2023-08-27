@@ -67,7 +67,7 @@ nav li {
 /* header section end  */
 .header {
     padding: 50px 0px 0px 0px;
-    background-image: url('/images/header_bg.png');
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }

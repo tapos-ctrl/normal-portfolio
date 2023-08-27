@@ -205,32 +205,98 @@ nav li {
     width: 50%;
     margin: 60px 50px;
     margin-left: 0px;
-    
+
 }
 
-.education-title, .expreience-title {
+.education-title,
+.expreience-title {
     color: #474747;
     font-size: 30px;
     margin: 50px 0px;
     font-weight: 700;
 }
-.resume-body>h1{
+
+.resume-body>h1 {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
 }
-.resume-body>h4{
-    color:  #757575;
+
+.resume-body>h4 {
+    color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0px 20px;
 }
-.resume-body>p{
+
+.resume-body>p {
     color: #757575;
     font-size: 16px;
     margin-bottom: 60px;
 }
-.download-btn{
+
+.download-btn {
     text-align: center;
 }
+
 /* resume section end  */
+
+/* footer section start  */
+.footer-section {
+    display: flex;
+    background: #FFF8F3;
+}
+
+.sociol-icon-box,
+.contact-box {
+    width: 50%;
+}
+/* .sociol-icon-box{
+    margin-right: 100px;
+} */
+
+.sociol-icon-box>h1 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sociol-icon-box>p {
+    color: #474747;
+    font-size: 16px;
+    margin: 20px 0px 30px;
+}
+
+.icons i {
+    color: #FD6E0A;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.contact-box{
+    margin-left: 200px;
+}
+.contact-box>h1 {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0px;
+    outline: none;
+}
+
+.message-box {
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    height: 150px;
+    outline: none;
+    padding: 15px;
+    margin: 30px 0px;
+}
+
+/* footer section end  */

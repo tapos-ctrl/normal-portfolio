@@ -162,7 +162,7 @@ nav li {
     text-align: center;
     font-size: 18px;
     line-height: 30px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .skills-container {
@@ -186,7 +186,51 @@ nav li {
     color: #757575;
     font-size: 16px;
     line-height: 28px;
-    /* 175% */
 }
 
 /* skill section end  */
+
+/* resume section start  */
+.resume-section {
+    padding-top: 0px;
+}
+
+.resume-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.resume-colum {
+    width: 50%;
+    margin: 60px 50px;
+    margin-left: 0px;
+    
+}
+
+.education-title, .expreience-title {
+    color: #474747;
+    font-size: 30px;
+    margin: 50px 0px;
+    font-weight: 700;
+}
+.resume-body>h1{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-body>h4{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px 20px;
+}
+.resume-body>p{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.download-btn{
+    text-align: center;
+}
+/* resume section end  */
